@@ -1,0 +1,15 @@
+.footer {
+    padding: 20px;
+    background-color: #121212;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-icons i {
+    font-size: 1.5em;
+    cursor: pointer;
+  }

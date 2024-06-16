@@ -1,0 +1,30 @@
+.main {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start; 
+  padding: 20px;
+  text-align: left; 
+  max-width: 800px; 
+  margin: 1.6cm;
+
+}
+
+.main h1 {
+  font-size: 4em;
+  font-family: sans-serif;
+  color: lightpink;
+  transition: color 0.3s ease;
+  letter-spacing: 2px;
+}
+
+.main p {
+  font-size: .5cm;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+.main h1:hover {
+  color: lightgrey; 
+}

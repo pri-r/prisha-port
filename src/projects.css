@@ -1,0 +1,25 @@
+.projects {
+    flex-grow: 1;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start; 
+    padding: 20px;
+    text-align: left; 
+    max-width: 800px; 
+    margin: 5cm;
+}
+
+
+.projects h2 {
+    font-size: 4em;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+    letter-spacing: 2px;
+}
+
+.projects p {
+    font-size: .5cm;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
