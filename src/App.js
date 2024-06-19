@@ -10,7 +10,10 @@ import {
   Route,
   useLocation
 } from "react-router-dom";
+
 import Projects from './projects.js'
+import Contact from './contact.js'
+
 import { WavyContainer } from 'react-wavy-transitions';
 
 const AppContent = () => {
@@ -33,6 +36,7 @@ const AppContent = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/contactme" element={<Contact />} />
         </Routes>
         {showImage && (
           <div className="image-container">

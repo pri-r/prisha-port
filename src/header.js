@@ -9,9 +9,9 @@ const Header = () => {
     <header className="header">
       <nav>
         <ul>
-          <li><WavyLink to="/" color= "#3A3B3C">About Me</WavyLink></li>
-          <li><WavyLink to="/projects" color= "#3A3B3C" >Projects</WavyLink></li>
-          <li><WavyLink to="/contactme" color= "#3A3B3C">Contact Me</WavyLink></li>
+          <li><WavyLink to="/" color= "#121212">About Me</WavyLink></li>
+          <li><WavyLink to="/projects" color= "#121212" >Projects</WavyLink></li>
+          <li><WavyLink to="/contactme" color= "#121212">Contact Me</WavyLink></li>
         </ul>
       </nav>
     </header>

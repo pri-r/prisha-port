@@ -3,23 +3,54 @@
     text-align: left;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start; 
-    padding: 20px;
-    text-align: left; 
-    max-width: 800px; 
-    margin: 5cm;
+    justify-content:last baseline;
+    align-items: flex-start;
+    padding: 2px;
+    max-width: 1300px;
 }
 
-
 .projects h2 {
+    text-align: center;
     font-size: 4em;
     font-family: sans-serif;
-    transition: color 0.3s ease;
     letter-spacing: 2px;
 }
 
 .projects p {
     font-size: .5cm;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.capy-pic img {
+    width: 520px;
+    border-radius: 20px;
+}
+
+.capy-pic {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.web-pic img {
+    width: 520px;
+    border-radius: 20px;
+    
+}
+
+.web-pic {
+    justify-content: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.website {
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.capy {
+    align-items: center; 
+    justify-content: center;
+
 }
