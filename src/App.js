@@ -42,7 +42,7 @@ const AppContent = () => {
         </Routes>
         {showImage && (
           <div className="image-container">
-            <img src="./prisha-port/public/prisha_pic.png" alt="Prisha_pic" />
+            <img src="/prisha_pic.png" alt="Prisha_pic" />
           </div>
         )}
       </div>
