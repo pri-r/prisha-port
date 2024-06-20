@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/prisha-port/static/css/main.6255fd65.css",
-    "main.js": "/prisha-port/static/js/main.ec1c68ea.js",
+    "main.js": "/prisha-port/static/js/main.c2dcd90f.js",
     "static/js/453.1407b060.chunk.js": "/prisha-port/static/js/453.1407b060.chunk.js",
     "index.html": "/prisha-port/index.html",
     "main.6255fd65.css.map": "/prisha-port/static/css/main.6255fd65.css.map",
-    "main.ec1c68ea.js.map": "/prisha-port/static/js/main.ec1c68ea.js.map",
+    "main.c2dcd90f.js.map": "/prisha-port/static/js/main.c2dcd90f.js.map",
     "453.1407b060.chunk.js.map": "/prisha-port/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6255fd65.css",
-    "static/js/main.ec1c68ea.js"
+    "static/js/main.c2dcd90f.js"
   ]
 }
