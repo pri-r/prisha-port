@@ -21,7 +21,7 @@ const AppContent = () => {
   const [showImage, setShowImage] = useState(true);
 
   useEffect(() => {
-    if (location.pathname === '/prisha-port/projects'|| location.pathname === '/prisha-port/contactme') {
+    if (location.pathname === '/projects'|| location.pathname === '/contactme') {
       setShowImage(false);
     } else {
       setShowImage(true);
@@ -35,8 +35,8 @@ const AppContent = () => {
         <WavyContainer />
         <Routes>
           <Route path="/prisha-port/" element={<Main />} />
-          <Route path="/prisha-port/projects" element={<Projects />} />
-          <Route path="/prisha-port/contactme" element={<Contact />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/contactme" element={<Contact />} />
         </Routes>
         {showImage && (
           <div className="image-container">
