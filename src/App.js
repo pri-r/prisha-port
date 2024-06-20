@@ -13,6 +13,7 @@ import {
 
 import Projects from './projects.js'
 import Contact from './contact.js'
+import { Navigate } from "react-router-dom";
 
 import { WavyContainer } from 'react-wavy-transitions';
 
@@ -37,7 +38,7 @@ const AppContent = () => {
           <Route path="/prisha-port/" element={<Main />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contactme" element={<Contact />} />
-          <Route path="/" element={<Main />} />
+          <Route path="*" element={<Navigate to="/prisha-port/" />} />
         </Routes>
         {showImage && (
           <div className="image-container">
