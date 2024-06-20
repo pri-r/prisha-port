@@ -21,7 +21,7 @@ const AppContent = () => {
   const [showImage, setShowImage] = useState(true);
 
   useEffect(() => {
-    if (location.pathname === '/projects'|| location.pathname === '/contactme') {
+    if (location.pathname === '/prisha-port/projects'|| location.pathname === '/prisha-port/contactme') {
       setShowImage(false);
     } else {
       setShowImage(true);
@@ -40,7 +40,7 @@ const AppContent = () => {
         </Routes>
         {showImage && (
           <div className="image-container">
-            <img src="/prisha_pic.png" alt="Prisha_pic" />
+            <img src="./prisha-port/public/prisha_pic.png" alt="Prisha_pic" />
           </div>
         )}
       </div>
