@@ -7,7 +7,7 @@ const Projects = () => {
       <h1>Projects</h1>
       <div class="capy">
         <div class="capy-pic">
-            <a href="https://pri-r.github.io/Catch-the-Capy-Game/" target="_blank"> <img src="./capy.png"/> </a>
+            <a href="https://pri-r.github.io/Catch-the-Capy-Game/" target="_blank"> <img src="./capy.png" alt="Capybara_screenshot"/> </a>
         </div>
         <p>
           One of the previous projects that I have worked on is 'Catch-the-Capy' game. It was my first step into game development. 
@@ -19,7 +19,7 @@ const Projects = () => {
       </div>
       <div class="website">
           <div class="web-pic">
-              <a href="https://pri-r.github.io/technical-challange-devsoc-24t1-yay/" target="_blank"> <img src="./web.png"/> </a>
+              <a href="https://pri-r.github.io/technical-challange-devsoc-24t1-yay/" target="_blank"> <img src="./web.png" alt="web_screenshot"/> </a>
           </div>
         <p>
           My first attempt at making a website was for a technical challange presented by Devsoc, where I learned all about HTML, CSS and Javascript<br></br> to build a website 
@@ -31,7 +31,7 @@ const Projects = () => {
       </div>
       <div class="Boo">
           <div class="web-pic">
-              <a href=""> <img src="./boo.png"/> </a>
+              <a href=""> <img src="./boo.png" alt="BooDo_screenshot"/> </a>
           </div>
         <p>
           This project is still under construction, called BooDo. It is your productive day planner that takes inspiration from the app Todoist, 
