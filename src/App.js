@@ -34,9 +34,9 @@ const AppContent = () => {
       <div className="content">
         <WavyContainer />
         <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contactme" element={<Contact />} />
+          <Route path="/prisha-port/" element={<Main />} />
+          <Route path="/prisha-port/projects" element={<Projects />} />
+          <Route path="/prisha-port/contactme" element={<Contact />} />
         </Routes>
         {showImage && (
           <div className="image-container">
