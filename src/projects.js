@@ -23,10 +23,10 @@ const Projects = () => {
           </div>
         <p>
           My first attempt at making a website was for a technical challange presented by Devsoc, where I learned all about HTML, CSS and Javascript<br></br> to build a website 
-          based on the notion of time, I created a few functions to enable the backround to change colour as you scroll further down,<br></br> which was an incredible feat as for me a first year. 
+          based on the notion of time, I created a few functions to enable the backround to change colour as you scroll further down,<br></br> which was an incredible learning experience for me. 
         </p>
         <p>
-          I also made it Cinderalla themed. Always running out to time.
+          I also made it Cinderalla themed. Always running out of time.
         </p> 
       </div>
       <div class="Boo">
