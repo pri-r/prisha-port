@@ -38,18 +38,6 @@ const Projects = () => {
           and includes <br></br> my own creative elements to compete against your friends/teammates and gain points from completing tasks. 
         </p>
       </div>
-      <div class="Boo2">
-          <div class="web-pic">
-            <img src="./prisha-port/boo.png" alt="BooDo_screenshot"/>
-          </div>
-        <p>
-          This project was partly created for my own curiosty and partly for a subject in Uni.
-          We were given full creative control to present 'Something Awesome' that we have made ourselves to our peers to showcase
-          security vunerabilities.
-          <br></br> It is a keylogger and a MITM attack and one of my favourite projects to date. You can have a look at my demonstation video
-          or even my github to deep dive into the code.
-        </p>
-      </div>
     </div>
   );
 }
