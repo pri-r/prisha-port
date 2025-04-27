@@ -31,6 +31,16 @@ const Projects = () => {
       </div>
       <div class="Boo">
           <div class="web-pic">
+            <a href="https://www.loom.com/share/14eefccaed6a49fd805af0039fc97213?sid=8a6852cf-2b0e-49f5-9915-ba1fea762333" target="_blank" rel="noreferrer"> <img src="./prisha-port/smth-awesome.png" alt="Capybara_screenshot"/> </a>
+          </div>
+        <p>
+          This is one of my favourite projects, in one of my subjects, we were allowed to take full creative freedom to demonstrate any security concept. </p><p>
+          I decided to build a keylogger that emails the system information and keylogs, as well as takes screenshots. I also conducted a MITM attack <br></br>
+          to override 2FA. You can have a look at it in my public github repo, or watch the video linked above for a quick demo.
+        </p>
+      </div>
+      <div class="Boo1">
+          <div class="web-pic">
             <img src="./prisha-port/boo.png" alt="BooDo_screenshot"/>
           </div>
         <p>
